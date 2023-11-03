@@ -29,3 +29,23 @@ console.log(typeof myFunction);
 console.log(typeof myObj);
 console.log(typeof heros);
 console.log(anotherId);
+
+// ******************* memory *****************************
+let myYoutubename = "hiteshchaudary.com"
+let anothername = myYoutubename 
+
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userone= {
+     email: "user@google.com",
+     upi: "user@ybl"
+}
+
+let usertwo = userone ; 
+usertwo.email = "hitesh@goole.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
