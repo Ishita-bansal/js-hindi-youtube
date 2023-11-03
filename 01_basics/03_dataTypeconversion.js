@@ -3,12 +3,12 @@ let score = 33
 console.log(typeof score);
 console.log(typeof(number));
 
-let score = "33abc"
-console.log(typeof score);
-console.log(typeof(score));
-let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+let score0 = "33abc"
+console.log(typeof score0);
+console.log(typeof(score0));
+let valueInNumber0 = Number(score0);
+console.log(typeof valueInNumber0);
+console.log(valueInNumber0);
 
 let valueInNumber = Number(score);
 console.log(typeof score);
@@ -56,5 +56,5 @@ console.log(booleanIsLoggedIn2);
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(StringNumber);
+console.log(stringNumber);
 console.log(typeof stringNumber);
