@@ -24,6 +24,27 @@ const myFunction = function(){
     console.log("Hello world");
 }
 console.log(typeof bigNumber);
+
+const id = Symbol('123');
+const anotherId = Symbol('123')
+console.log(id === anotherId);
+
+const bigNumber = 34567234537854326789334445555n
+
+// array
+const heros = ["shaktiman" , "neeraj" , "doga"];
+
+// object
+let myObj = {
+    name : "isha",
+    age : 21
+}
+
+// function
+const myFunction = function(){
+    console.log("Hello world");
+}
+console.log(typeof bigNumber);
 console.log(typeof outsidetemp);
 console.log(typeof myFunction);
 console.log(typeof myObj);
@@ -49,3 +70,4 @@ usertwo.email = "hitesh@goole.com"
 
 console.log(userone.email);
 console.log(usertwo.email);
+
