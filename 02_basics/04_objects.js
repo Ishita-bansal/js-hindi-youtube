@@ -52,6 +52,16 @@ const course = {
 // course.courseInstructor
 const {courseInstructor} = course
 console.log(courseInstructor);
+
+//destructuring the object
+const course = {
+    coursename : "JS in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+// course.courseInstructor
+const {courseInstructor} = course
+console.log(courseInstructor);
 const {courseInstructor : instructor} = course
 console.log(instructor);
 
@@ -72,3 +82,4 @@ console.log(instructor);
 //     {},
 //     {}
 // ]
+
